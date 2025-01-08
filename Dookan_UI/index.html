@@ -216,6 +216,40 @@
             height: 40px;
             opacity: 0.7;
         }
+    .search-box .btn-primary {
+    background-color: #a855f7;
+    border-color: #a855f7;
+}
+
+.search-box .btn-primary:hover {
+    background-color: #9333ea;
+    border-color: #9333ea;
+}
+
+.form-check-input:checked {
+    background-color: #a855f7;
+    border-color: #a855f7;
+}
+
+.card {
+    border: 1px solid rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.btn-primary {
+    background-color: #a855f7;
+    border-color: #a855f7;
+}
+
+.btn-primary:hover {
+    background-color: #9333ea;
+    border-color: #9333ea;
+}
 
         /* Mobile menu styles */
         @media (max-width: 991px) {
@@ -387,6 +421,179 @@
             </div>
         </div>
     </section>
+   <!-- Third Party Themes Section -->
+<section class="third-party-themes py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Third Party Themes</h2>
+            <p class="text-muted mt-4">Other popular themes that also work nicely with Dokan.</p>
+        </div>
+
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-lg-3">
+                <div class="sidebar mb-4">
+                    <!-- Search -->
+                    <div class="search-box mb-4">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <button class="btn btn-primary" type="button">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Categories -->
+                    <div class="categories">
+                        <h3 class="h5 mb-3">Category</h3>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="category" id="all" checked>
+                            <label class="form-check-label" for="all">All</label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="category" id="autoParts">
+                            <label class="form-check-label" for="autoParts">Auto Parts</label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="category" id="booking">
+                            <label class="form-check-label" for="booking">Booking</label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="category" id="cosmetic">
+                            <label class="form-check-label" for="cosmetic">Cosmetic</label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="category" id="electronics">
+                            <label class="form-check-label" for="electronics">Electronics</label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="category" id="fashion">
+                            <label class="form-check-label" for="fashion">Fashion</label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="category" id="fitness">
+                            <label class="form-check-label" for="fitness">Fitness</label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="category" id="food">
+                            <label class="form-check-label" for="food">Food</label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="category" id="furniture">
+                            <label class="form-check-label" for="furniture">Furniture</label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="category" id="grocery">
+                            <label class="form-check-label" for="grocery">Grocery</label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="category" id="jewelry">
+                            <label class="form-check-label" for="jewelry">Jewelry</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Theme Cards Grid -->
+            <div class="col-lg-9">
+                <div class="row g-4">
+                    <!-- Porto Theme Card -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="/placeholder.svg" class="card-img-top" alt="Porto Theme">
+                            <div class="card-body">
+                                <h3 class="h5">Porto</h3>
+                                <p class="text-muted small">A Product of p-themes</p>
+                                <div class="d-flex gap-2 mt-3">
+                                    <a href="#" class="text-muted text-decoration-none">Know more</a>
+                                    <a href="#" class="btn btn-primary btn-sm">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Elessi Theme Card -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="/placeholder.svg" class="card-img-top" alt="Elessi Theme">
+                            <div class="card-body">
+                                <h3 class="h5">Elessi</h3>
+                                <p class="text-muted small">A Product of Nasatheme</p>
+                                <div class="d-flex gap-2 mt-3">
+                                    <a href="#" class="text-muted text-decoration-none">Know more</a>
+                                    <a href="#" class="btn btn-primary btn-sm">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- OneMall Theme Card -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="/placeholder.svg" class="card-img-top" alt="OneMall Theme">
+                            <div class="card-body">
+                                <h3 class="h5">OneMall</h3>
+                                <p class="text-muted small">A Product of MagenTech</p>
+                                <div class="d-flex gap-2 mt-3">
+                                    <a href="#" class="text-muted text-decoration-none">Know more</a>
+                                    <a href="#" class="btn btn-primary btn-sm">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pinkmart Theme Card -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="/placeholder.svg" class="card-img-top" alt="Pinkmart Theme">
+                            <div class="card-body">
+                                <h3 class="h5">Pinkmart</h3>
+                                <p class="text-muted small">A Product of ThemeMove</p>
+                                <div class="d-flex gap-2 mt-3">
+                                    <a href="#" class="text-muted text-decoration-none">Know more</a>
+                                    <a href="#" class="btn btn-primary btn-sm">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Zakra Theme Card -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="/placeholder.svg" class="card-img-top" alt="Zakra Theme">
+                            <div class="card-body">
+                                <h3 class="h5">Zakra</h3>
+                                <p class="text-muted small">A Product of ThemeGrill</p>
+                                <div class="d-flex gap-2 mt-3">
+                                    <a href="#" class="text-muted text-decoration-none">Know more</a>
+                                    <a href="#" class="btn btn-primary btn-sm">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Puca Theme Card -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="/placeholder.svg" class="card-img-top" alt="Puca Theme">
+                            <div class="card-body">
+                                <h3 class="h5">Puca</h3>
+                                <p class="text-muted small">A Product of ThemeForest</p>
+                                <div class="d-flex gap-2 mt-3">
+                                    <a href="#" class="text-muted text-decoration-none">Know more</a>
+                                    <a href="#" class="btn btn-primary btn-sm">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
